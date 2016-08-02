@@ -1,0 +1,7 @@
+---
+- hosts: speedment
+  become: True
+
+  roles:
+  - role: postgresql
+    download_directory: "~/"
