@@ -1,5 +1,5 @@
 ---
-- hosts: speedment
+- hosts: database
   become: True
 
   pre_tasks:
